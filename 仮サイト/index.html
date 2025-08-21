@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE</title>
+    <style>
+        body {
+            /* 余白をなくし、画面全体を使用 */
+            margin: 0;
+            overflow: hidden; /* スクロールバーが表示されないように */
+            display: flex;
+            justify-content: center; /* 水平方向の中央揃え */
+            align-items: center; /* 垂直方向の中央揃え (念のため) */
+            min-height: 100vh; /* 画面の高さいっぱいにする */
+            background-color: #000; /* 画像の読み込み中に表示される背景色 (黒が一般的) */
+        }
+
+        img {
+            /* 画像を画面いっぱいに表示し、アスペクト比を維持して余白をなくす */
+            width: 100vw; /* ビューポートの幅いっぱいに */
+            height: 100vh; /* ビューポートの高さいっぱいに */
+            object-fit: cover; /* 縦横比を保ちつつ、要素全体を覆うように拡大・トリミング */
+            /* object-position: center center; */ /* 画像のどの部分を中心に表示するか (デフォルトはcenter) */
+        }
+    </style>
+</head>
+<body>
+    <img src="images/noname.png" alt="image">
+</body>
+</html>

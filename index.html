@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="/potofo_kuwa/style.css">
-</head>
-<body>
-    <header>
 
+<!-- 以下 [index.html]  -->
+    <header>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -18,30 +16,37 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    <a href="mailform.html">
         <img src="images/mailicon.png" alt="mailICON">
-    </a>
-</a>
-
+        </a>
     </header>
 
     <main>
+        <!-- hero -->
         <section id="hero">
             <h2>ポートフォリオ</h2>
-            <h3>桑田 菫花</h3> </section>
+            <h3>桑田 菫花</h3>
+        </section>
 
+        <!-- about -->
         <section id="about" class="container">
             <h2>私について</h2>
             <div class="about-container">
                 <div class="about-image">
                     <img src="images/noimage.png" alt="プロフィール"> </div>
                 <div class="about-text">
-                    <p>PCやスマートフォンを活用し、AviUtlやAudacityを使った音声,動画編集、HTML/CSSによるWebサイト制作をしています。
-<br>制作においては、ユーザーが直感的に操作できるUI/UXデザインを特に意識しています。新しい技術を積極的に学び、自身の制作に活かすことに強い関心があります。</p>
+                    <p>現在アス・トライ就労移行支援事業所にて、
+                    <br>ビジネスマナーやグループワーク、DXについて学んでいます。
+                    <br>
+                    <br>事業所ではPremiereProやGoogleAIStudio、個人ではAviUtlやAudacityを利用し、
+                    <br>音声・動画編集、HTML/CSSによるWebサイトの制作をしています。
+                    <br>制作においては、直感的に操作できるUI/UXデザインと、
+                    <br>制作しながらも新たに知識やスキルを身につけるという意識を忘れないよう取り組んでいます。
+                    <br>新しい技術を積極的に学び、自身の制作に活かすことに強い関心があります。</p>
+                    <br>
                 </div>
-            </div>
         </section>
 
+        <!-- skills -->
         <section id="skills" class="container">
             <h2>スキル</h2>
             <div class="skill-category">
@@ -73,28 +78,64 @@
                 </ul>
             </div>
             <div class="skill-category">
-                <h3>資格</h3>
+                <h3>取得資格</h3>
                 <ul class="skill-list">
-                    <li>MOS(Excel)</li>
+                    <li>Microsoft Office Specialist Excel 365</li>
                 </ul>
           <p class="note">※資格取得のため引き続き勉強中です。</p>
-  
         </section>
 
+        <!-- works -->
         <section id="works" class="container">
             <h2>制作記録</h2>
             <div class="works-grid">
                 <div class="work-card">
             	<h3>AppSheet製タスク管理アプリ</h3>
                     <div class="noimage">
-                         <img src="images/AppS1.png" alt="AppSheet" style="float: left; margin-right: 10px;">
+                         <img src="images/AppS2.png" alt="AppSheet" style="float: left; margin-right: 10px;">
                         <p>イベント登録・編集、タスクの進捗管理、リマインダー機能を備えたタスク管理アプリ。
 			<br>情報の整理、期限の可視化、タスクの抜け漏れ防止を目的としています。</p>
-                        <p><strong>使用技術:</strong> AppSheet, Googleスプレッドシート, Gemini</p>
-                        <div class="work-links">
+                        <p><strong>使用ツール:</strong> AppSheet、Googleスプレッドシート、Gemini</p>
                     </div>
-                    <div class="work-info">
-                            </div>
+                </div>
+
+                <div class="work-card">
+            	<h3>PIIマスキングツール</h3>
+                    <div class="noimage">
+                         <img src="images/PII2.png" alt="PII" style="float: left; margin-right: 10px;">
+                        <p>.xlsxなどで管理しているPIIを一括マスク化するツール。
+			<br>社外共有やAIにデータとして学習させる際等、
+			<br>必要なデータを手軽に作成することを目的としています。</p>
+                        <p><strong>使用ツール:</strong> ChatGPT、python、Node.js</p>
+                        <div class="work-links">
+                             <a href="https://◯◯" target="_blank">デモ版DL</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-card">
+            	<h3>Google Chrome拡張機能[じぇみに]</h3>
+                    <div class="noimage">
+                         <img src="images/kakutyou.png" alt="kakutyou" style="float: left; margin-right: 10px;">
+                        <p>Google Chromeでの操作時、Geminiから不定期に一言コメントが来る拡張機能。
+			<br>てｓ
+			<br>てｓ</p>
+                        <p><strong>使用ツール:</strong> ChatGPT、GoogleChrome</p>
+                    </div>
+                </div>
+
+                <div class="work-card">
+                <h3>動画編集</h3>
+                   <div class="noimage">
+                    <iframe width="350" height="196" src="https://www.youtube.com/embed/xI3VusVyucA?si=Mrvy_o7_nppgrRnz" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="float: left; margin-right: 10px;">
+                    </iframe>
+                        <p>PremiereProを使い作成した、和歌山城のPR動画
+                        <br>(1:41)
+                        <br>てｓ</p>
+                        <p><strong>使用ツール:</strong> PremierePro、パブリックドメインQ</p>
+                        <div class="work-links">
+                             <a href="https://kuwata122.github.io/potofo.github.io/" target="_blank">動画閲覧サイト</a>
+                        </div>
                     </div>
                 </div>
 
@@ -104,56 +145,43 @@
                         <img src="images/usts.jpg" alt="Webサイト" style="float: left; margin-right: 10px;">
                         <p>自作素材(ust)などを配布するシンプルなサイト。
 			<br>作品や活動情報を効果的に発信し、作品の置き場としての機能を持たせることを目的としています。</p>
-                        <p><strong>使用技術:</strong> HTML, CSS</p>
+                        <p><strong>使用ツール:</strong> HTML、CSS</p>
                         <div class="work-links">
                              <a href="https://kuwata122.github.io/potofo.github.io/" target="_blank">Webサイト</a>
-                            <a href="https://github.com/kuwata122" target="_blank">GitHub</a>
+                             <a href="https://github.com/kuwata122" target="_blank">GitHub</a>
                         </div>
-                    </div>
-                    <div class="work-info">
                     </div>
                 </div>
 
+                <!--
                 <div class="work-card">
                 <h3>人口音源</h3>
                     <div class="noimage">
-                        <img src="images/noname.png" alt="音源" style="float: left; margin-right: 10px;">
-                        <p>複数の効果音から作成した中の人のいない音源。
-			<br>自作サイトなどで人間の代わりに話し,歌い,解説してもらうことを目的としています。</p>
-                        <p><strong>使用技術:</strong> Audacity</p>
-                    </div>
-                    <div class="work-info">
-                    </div>
-                </div>
-
-                <div class="work-card">
-                <h3>動画編集</h3>
-                   <div class="noimage">
-                    <iframe width="350" height="196" src="https://www.youtube.com/embed/xI3VusVyucA?si=Mrvy_o7_nppgrRnz" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="float: left; margin-right: 10px;">
-					</iframe>
-                        <p>PremiereProを使い作成した、和歌山城のPR動画
-			<br>てｓ</p>
-                        <p><strong>使用技術:</strong> PremierePro, パブリックドメインQ</p>
-                    <div class="work-info">
-                    </div>
-                        <div class="work-links">
-                             <a href="https://kuwata122.github.io/potofo.github.io/" target="_blank">動画閲覧サイト</a>
-                        </div>
+                        <img src="images/Audiomu.png" alt="音源" style="float: left; margin-right: 10px;">
+                        <p>色々な効果音や環境音から作成した中の人のいない音源。
+			<br>自作サイトなどで人間の代わりに話し、歌い、解説してもらうことを目的としています。</p>
+                        <p><strong>使用ツール:</strong> Audacity</p>
+                          <figure>
+                          <figcaption>音源例</figcaption>
+                        <audio controls src="images/◯◯.mp3"></audio>
                     </div>
                 </div>
+                -->
 
 
-                 </div>
+            </div>
         </section>
 
+        <!-- vision -->
         <section id="vision" class="container">
             <h2>これから</h2>
-            <p>
+            <p><div style="text-align: center;">
                 現在はAIツールに頼る部分も多いですが、今後も学習を続け、より複雑でインタラクティブなWebアプリケーションを自身の力で開発できるようになることを目指します。<br>
                 AIを効果的に活用しつつ、プログラミングの基礎力をより一層強化することで、将来的にはユーザーの課題を技術で解決できるWebエンジニアとして成長していきたいです。
             </p>
         </section>
 
+        <!-- contact -->
         <section id="contact" class="container">
             <h2>お問い合わせ</h2>
             <p>ご不明な点があればこちらからお願いいたします。</p>
@@ -165,19 +193,4 @@
         <p>&copy; 2025.kuwata</p>
     </footer>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-

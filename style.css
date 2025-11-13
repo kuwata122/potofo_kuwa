@@ -1,3 +1,4 @@
+<style>
 /* 基本設定 */
 body {
     font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
@@ -212,6 +213,10 @@ footer {
     object-fit: cover;
 }
 
+.about-image img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 /* 実績セクションのレイアウト調整 */
 .works-grid {
     display: block;
@@ -258,13 +263,8 @@ footer {
         text-align: center;
     }
 }
-.about-image img {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
 
-
------
-/枠/
+/* 枠 */
 .all-card {
     background-color: #f5f5f5;
     padding: 1.5rem;
@@ -281,3 +281,7 @@ footer {
 .all-card p {
     margin-bottom: 0.5rem;
 }
+    </style>
+</head>
+<body>
+

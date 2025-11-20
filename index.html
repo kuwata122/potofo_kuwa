@@ -466,7 +466,17 @@
             margin-bottom: 0.5rem;
         }
     /* Work images fixed size and float */
-.work-card img,
+.work-card img {
+    width: 100% !important;
+    max-width: 350px;
+    height: auto !important;
+    object-fit: cover;
+    float: left;
+    margin-right: 10px;
+    border-radius: 6px;
+    display: block;
+},
+
 .work-card iframe {
     width: 350px !important;
     height: 196px !important;

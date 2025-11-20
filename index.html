@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
 
-<!-- 以下 [index.html]  -->
+    <!-- ========================= -->
+    <!-- index.html の構造         -->
+    <!-- ========================= -->
+</head>
+<body>
+    <!-- Header -->
     <header>
         <nav>
             <ul>
@@ -16,44 +21,51 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <img src="images/mailicon.png" alt="mailICON">
-        </a>
+        <img src="images/mailicon.png" alt="mailICON" />
     </header>
 
+    <!-- Main -->
     <main>
-        <!-- hero -->
+        <!-- Hero Section -->
         <section id="hero">
             <h2>ポートフォリオ</h2>
             <h3>桑田 菫花</h3>
         </section>
 
-        <!-- about -->
+        <!-- About -->
         <section id="about" class="container">
             <h2>私について</h2>
             <div class="about-container">
                 <div class="about-image">
-                    <img src="images/noimage.png" alt="プロフィール"> </div>
-                <div class="about-text">
-                    <p>現在アス・トライ就労移行支援事業所にて、
-                    <br>ビジネスマナーやグループワーク、DXについて学んでいます。
-                    <br>
-                    <br>事業所ではPremiereProやGoogleAIStudio、個人ではAviUtlやAudacityを利用し、
-                    <br>音声・動画編集、HTML/CSSによるWebサイトの制作をしています。
-                    <br>制作においては、直感的に操作できるUI/UXデザインと、
-                    <br>制作しながらも新たに知識やスキルを身につけるという意識を忘れないよう取り組んでいます。
-                    <br>新しい技術を積極的に学び、自身の制作に活かすことに強い関心があります。</p>
+                    <img src="images/noimage.png" alt="プロフィール" />
                 </div>
+                <div class="about-text">
+                    <p>
+                        現在アス・トライ就労移行支援事業所にて、<br />
+                        ビジネスマナーやグループワーク、DXについて学んでいます。
+                        <br /><br />
+                        事業所ではPremiereProやGoogleAIStudio、個人ではAviUtlやAudacityを利用し、<br />
+                        音声・動画編集、HTML/CSSによるWebサイトの制作をしています。
+                        <br />制作においては、直感的に操作できるUI/UXデザインと、<br />
+                        制作しながらも新たに知識やスキルを身につけるという意識を忘れないよう取り組んでいます。
+                        <br />新しい技術を積極的に学び、自身の制作に活かすことに強い関心があります。
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <!-- skills -->
+        <!-- Skills -->
         <section id="skills" class="container">
             <h2>スキル</h2>
+
             <div class="skill-category">
                 <h3>基礎PCスキル</h3>
-                <div class="about-text">
-                    <p><strong>Excel : </strong>リストや表の作成、SUM,AVERAGE,IF等関数の利用、グラフ作成、ピボットテーブルの利用 ...etc
-                    <br><strong>Word : </strong>データ・図版挿入した文書の作成、テンプレートの作成 ...etc</p>
+                <p>
+                    <strong>Excel :</strong> リストや表の作成、SUM, AVERAGE, IF 等関数の利用、グラフ作成、ピボットテーブルの利用 ...etc<br />
+                    <strong>Word :</strong> データ・図版挿入した文書の作成、テンプレートの作成 ...etc
+                </p>
             </div>
+
             <div class="skill-category">
                 <h3>言語・ツール</h3>
                 <ul class="skill-list">
@@ -65,6 +77,7 @@
                     <li>Google Workspace</li>
                 </ul>
             </div>
+
             <div class="skill-category">
                 <h3>AI ツール</h3>
                 <ul class="skill-list">
@@ -74,7 +87,8 @@
                     <li>Perplexity</li>
                 </ul>
             </div>
-             <div class="skill-category">
+
+            <div class="skill-category">
                 <h3>その他</h3>
                 <ul class="skill-list">
                     <li>Premiere Pro</li>
@@ -84,175 +98,117 @@
                     <li>Audacity</li>
                 </ul>
             </div>
+
             <div class="skill-category">
                 <h3>取得資格</h3>
                 <ul class="skill-list">
                     <li>Microsoft Office Specialist Excel 365</li>
                 </ul>
-          <p class="note">※資格取得のため引き続き勉強中です。</p>
+                <p class="note">※資格取得のため引き続き勉強中です。</p>
+            </div>
         </section>
 
-        <!-- works -->
+        <!-- Works -->
         <section id="works" class="container">
             <h2>制作記録</h2>
             <div class="works-grid">
+
+                <!-- Work: タスク/業務管理アプリ -->
                 <div class="work-card">
-            	<h3>タスク/業務管理アプリ</h3>
+                    <h3>タスク/業務管理アプリ</h3>
                     <div class="noimage">
-                         <img src="images/AppS.png" alt="AppSheet" style="float: left; margin-right: 10px;">
-                        <p>イベント登録・編集、タスク/業務の進捗管理、リマインダー機能を
-			<br>備えたタスク管理アプリ。
-			<br>情報の整理、期限の可視化、タスクの抜け漏れ防止を
-			<br>目的としています。</p>
+                        <img src="images/AppS.png" alt="AppSheet" style="float:left; margin-right:10px;" />
+                        <p>
+                            イベント登録・編集、タスク/業務の進捗管理、リマインダー機能を備えたタスク管理アプリ。<br />
+                            情報の整理、期限の可視化、タスクの抜け漏れ防止を目的としています。
+                        </p>
                         <p><strong>使用ツール:</strong> AppSheet、Googleスプレッドシート、Gemini</p>
                     </div>
                 </div>
 
+                <!-- Work: 個人情報マスキングツール -->
                 <div class="work-card">
-            	<h3>個人情報マスキングツール</h3>
+                    <h3>個人情報マスキングツール</h3>
                     <div class="noimage">
-                         <img src="images/PII2.png" alt="PII" style="float: left; margin-right: 10px;">
-                        <p>Excelなどで管理している個人情報を一括マスク化するツール
-			<br>(デモ版)。社外共有やAIにデータとして学習させる際などに
-			<br>必要なデータを手軽に作成することを目的としています。</p>
+                        <img src="images/PII2.png" alt="PII" style="float:left; margin-right:10px;" />
+                        <p>
+                            Excelなどで管理している個人情報を一括マスク化するツール(デモ版)。<br />
+                            社外共有やAIにデータとして学習させる際などに必要なデータを手軽に作成することを目的としています。
+                        </p>
                         <p><strong>使用ツール:</strong> ChatGPT、python、Node.js</p>
                         <div class="work-links">
-                             <a href="https://◯◯" target="_blank">デモ版DLはこちら</a>
+                            <a href="https://◯◯" target="_blank">デモ版DLはこちら</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Work: 多言語版QRジェネレーター -->
                 <div class="work-card">
-                <h3>多言語版QRジュネレーター</h3>
+                    <h3>多言語版QRジュネレーター</h3>
                     <div class="noimage">
-                        <img src="images/QR.png" alt="Webサイト" style="float: left; margin-right: 10px;">
-                        <p>複数言語の文章がひとつのQRで生成されるツール(デモ版)。
-			<br>国外の方に向けたコンビニのレジやレストランでの注文の手順等、
-			<br>専用の読取りツールで自身の必要としている言語のみを表示する、
-			<br>安心や時短に繋がるツールを目的としています。</p>
+                        <img src="images/QR.png" alt="Webサイト" style="float:left; margin-right:10px;" />
+                        <p>
+                            複数言語の文章がひとつのQRで生成されるツール(デモ版)。<br />
+                            国外の方に向けたコンビニのレジやレストランでの注文手順等、専用読取りツールで必要な言語のみ表示する仕組みです。
+                        </p>
                         <p><strong>使用ツール:</strong> HTML、CSS、JavaScript</p>
-                        </div>
                     </div>
                 </div>
 
+                <!-- Work: 地域ヘルパー掲示板 -->
                 <div class="work-card">
-                <h3>地域ヘルパー掲示板</h3>
+                    <h3>地域ヘルパー掲示板</h3>
                     <div class="noimage">
-                        <img src="images/Helper.png" alt="Helper" style="float: left; margin-right: 10px;">
-                        <p>買い物代行や道案内等のヘルプ、その手助けを申し出る地域住人の
-			<br>簡易的なマッチングサポートのためのWeb掲示板(デモ版)。
-			<br>地域住民同士が気軽に助け合える環境づくりを目的としています。</p>
+                        <img src="images/Helper.png" alt="Helper" style="float:left; margin-right:10px;" />
+                        <p>
+                            買い物代行や道案内等のヘルプ、またその手助けを申し出る地域住民の簡易マッチング掲示板(デモ版)。<br />
+                            地域住民同士が気軽に助け合える環境づくりを目的としています。
+                        </p>
                         <p><strong>使用ツール:</strong> HTML、CSS、JavaScript</p>
                         <div class="work-links">
-                             <a href="https://kuwata122.github.io/Helper_ku/" target="_blank">Webサイトはこちら</a>
+                            <a href="https://kuwata122.github.io/Helper_ku/" target="_blank">Webサイトはこちら</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Work: 動画編集 -->
                 <div class="work-card">
-                <h3>動画編集</h3>
-                   <div class="noimage">
-                    <iframe width="350" height="196" src="https://www.youtube.com/embed/xI3VusVyucA?si=Mrvy_o7_nppgrRnz" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="float: left; margin-right: 10px;">
-                    </iframe>
-                        <p>観光客向けの和歌山城PR動画。(1:41)
-                        <br>PremiereProを使い、不透明度などで視覚効果を意識して
-                        <br>作成しました。</p>
+                    <h3>動画編集</h3>
+                    <div class="noimage">
+                        <iframe
+                            width="350"
+                            height="196"
+                            src="https://www.youtube.com/embed/xI3VusVyucA?si=Mrvy_o7_nppgrRnz"
+                            title="YouTube video player"
+                            frameborder="1"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen
+                            style="float:left; margin-right:10px;"
+                        ></iframe>
+                        <p>
+                            観光客向けの和歌山城PR動画。(1:41)<br />
+                            PremiereProを使い、不透明度などの視覚効果を意識して作成しました。
+                        </p>
                         <p><strong>使用ツール:</strong> PremierePro、パブリックドメインQ</p>
                         <div class="work-links">
-                             <a href="https://youtu.be/xI3VusVyucA?si=bmNSiMWfhrRzzUWm" target="_blank">Youtubeはこちら</a>
+                            <a href="https://youtu.be/xI3VusVyucA?si=bmNSiMWfhrRzzUWm" target="_blank">Youtubeはこちら</a>
                         </div>
                     </div>
                 </div>
-
-
-                <!--
-                <div class="work-card">
-                <h3>VoiceMirror</h3>
-                    <div class="noimage">
-                        <img src="images/VoiceM.png" alt="VoiceM" style="float: left; margin-right: 10px;">
-                        <p>自身の話すテンポやポジティブ度等をAIが分析・評価してくれる
-			<br>簡易的なコミュニケーションの練習を目的としたサイトの
-			<br>デモ版。
-			<br>
-			<br></p>
-                        <p><strong>使用ツール:</strong> HTML、CSS、JavaScript</p>
-                    </div>
-                </div>
-                -->
-
-                <!--
-                <div class="work-card">
-            	<h3>GoogleChrome拡張機能[ToastMate(じぇみに)]</h3>
-                    <div class="noimage">
-                         <img src="images/kakutyou.png" alt="kakutyou" style="float: left; margin-right: 10px;">
-                        <p>Chromeでの操作(キー操作、コピペ)に連動し、
-			<br>AIコメントを通知で届けてくれる拡張機能のプロトタイプ。
-			<br>ハッカソンのフリーテーマで作成しました。</p>
-                        <p><strong>使用ツール:</strong> ChatGPT、GoogleChrome</p>
-                        <div class="work-links">
-                             <a href="https://◯◯" target="_blank">プロトタイプDL</a>
-                        </div>
-                    </div>
-                </div>
-                -->
-
-                <!--
-                <div class="work-card">
-                <h3>個人制作Webサイト</h3>
-                    <div class="noimage">
-                        <img src="images/usts.jpg" alt="Webサイト" style="float: left; margin-right: 10px;">
-                        <p>自作素材(UST)などを配布するシンプルなサイト。
-			<br>作品や活動情報を効果的に発信し、作品の置き場としての機能を持たせることを目的としています。</p>
-                        <p><strong>使用ツール:</strong> HTML、CSS、JavaScript</p>
-                        <div class="work-links">
-                             <a href="https://kuwata122.github.io/potofo.github.io/" target="_blank">Webサイト</a>
-                        </div>
-                    </div>
-                </div>
-                -->
-
-                <!--
-                <div class="work-card">
-                <h3>その他</h3>
-                        <p>・<strong>[動画→GIFツール]</strong>:Web上でMP4など動画形式のものをGIFに変換するツール
-                        <br>・<strong>[オートフェードイン/アウト]</strong>:Web上で選択すると自動的に動画にフェードイン/アウトの効果をつけるツール
-			<br>・<strong>[就活生向け企業研究サポートツール]</strong>:企業研究での情報をひとまとめに出来るツール(Cドライブ依存)
-                        <br>・<strong>[仮]</strong>:仮</p>
-                    </div>
-                </div>
-                -->
-
-                <!--
-                <div class="work-card">
-                <h3>人口音源</h3>
-                    <div class="noimage">
-                        <img src="images/Audiomu.png" alt="音源" style="float: left; margin-right: 10px;">
-                        <p>色々な効果音や環境音から作成した中の人のいない音源。
-			<br>自作サイトなどで人間の代わりに話し、歌い、解説してもらうことを目的としています。</p>
-                        <p><strong>使用ツール:</strong> Audacity</p>
-                          <figure>
-                          <figcaption>音源例</figcaption>
-                        <audio controls src="images/◯◯.mp3"></audio>
-                    </div>
-                </div>
-                -->
-
-
             </div>
         </section>
 
-        <!-- vision -->
+        <!-- Vision -->
         <section id="vision" class="container">
             <h2>これから</h2>
-            <p><div style="text-align: center;">
-                現在はAIツールに頼る部分も多いですが、今後も学習を続け、より複雑でインタラクティブなWebアプリケーションを
-            <br>自身の力で開発できるようになることを目指します。
-            <br>AIを効果的に活用しつつ、プログラミングの基礎力をより一層強化することで、将来的にはユーザーの課題を
-            <br>技術で解決できるWebエンジニアとして成長していきたいです。
-            </p>
+            <div style="text-align:center;">
+                現在はAIツールに頼る部分も多いですが、今後も学習を続け、より複雑でインタラクティブなWebアプリケーションを自身の力で開発できるようになることを目指します。<br />
+                AIを効果的に活用しつつ、プログラミングの基礎力をより一層強化することで、将来的にはユーザーの課題を技術で解決できるWebエンジニアとして成長していきたいです。
+            </div>
         </section>
 
-        <!-- contact -->
+        <!-- Contact -->
         <section id="contact" class="container">
             <h2>お問い合わせ</h2>
             <p>ご不明な点があればこちらからお願いいたします。</p>
@@ -260,299 +216,267 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025.kuwata</p>
     </footer>
+
+    <!-- ========================= -->
+    <!-- style.css 相当           -->
+    <!-- ========================= -->
+    <style>
+        /* 基本設定 */
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #007acc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #000;
+        }
+
+        /* Header */
+        header {
+            background-color: #a9a9a9;
+            color: #000;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header nav ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            color: #000;
+            font-weight: bold;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            color: #000;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 0.5rem;
+        }
+
+        /* Hero */
+        #hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #f9f9f9;
+        }
+
+        #hero h2 {
+            font-size: 2.5rem;
+            margin: 0;
+            border-bottom: none;
+        }
+
+        #hero h3 {
+            font-size: 2rem;
+            margin: 0;
+            border-bottom: none;
+        }
+
+        /* About */
+        .about-container {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .about-image img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+        }
+
+        /* Skills */
+        #skills .skill-category {
+            margin-bottom: 1.5rem;
+        }
+
+        #skills h3 {
+            color: #007acc;
+            border-left: 4px solid #007acc;
+            padding-left: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .skill-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-list li {
+            background-color: #e0e0e0;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .note {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 2rem;
+        }
+
+        /* Works */
+        .work-card {
+            background-color: #f5f5f5;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            border-left: 5px solid #007acc;
+        }
+
+        .work-card h3 {
+            margin-top: 0;
+            color: #000;
+        }
+
+        .work-card p {
+            margin-bottom: 1.8rem;
+        }
+
+        .works-grid {
+            display: block;
+            gap: 1.5rem;
+        }
+
+        .work-links {
+            margin-top: 1rem;
+        }
+
+        .work-links a {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        /* Contact */
+        #contact {
+            text-align: center;
+        }
+
+        .contact-mail {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: #fff;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .contact-mail:hover {
+            background-color: #000;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 0.1rem;
+            margin-top: 2rem;
+            background-color: #a9a9a9;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+
+            header nav ul li {
+                margin: 0 10px;
+            }
+
+            .container {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            #hero h2 {
+                font-size: 2rem;
+            }
+
+            .about-container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        /* General Card */
+        .all-card {
+            background-color: #f5f5f5;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            border-left: 5px solid #007acc;
+        }
+
+        .all-card h3 {
+            margin-top: 0;
+            color: #000;
+        }
+
+        .all-card p {
+            margin-bottom: 0.5rem;
+        }
+    /* Work images fixed size and float */
+.work-card .noimage img,
+.work-card .noimage iframe {
+    width: 350px !important;
+    height: 196px !important;
+    object-fit: cover;
+    float: left;
+    margin-right: 10px;
+    border-radius: 6px;
+    display: block;
+}
+
+</style>
 </body>
 </html>
-
-
-<!-- 以下 [style.css]  -->
-<style>
-/* 基本設定 */
-body {
-    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    color: #000000;
-    line-height: 1.8;
-}
-
-a {
-    color: #007acc;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #000000;
-}
-
-/* ヘッダー */
-header {
-    background-color: #A9A9A9;
-    color: #000;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 1.5rem;
-}
-
-header nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-}
-
-header nav ul li {
-    margin-left: 20px;
-}
-
-header nav ul li a {
-    color: #000;
-    font-weight: bold;
-}
-
-/* コンテナ */
-.container {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background-color: #ffffff;
-    border-radius: 8px;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    color: #000;
-    border-bottom: 2px solid #007acc;
-    padding-bottom: 0.5rem;
-}
-
-/* ヒーローセクション */
-#hero {
-    text-align: center;
-    padding: 2rem 2rem;
-    background-color: #f9f9f9;
-}
-
-#hero h2 {
-    font-size: 2.5rem;
-    margin: 0 0 0rem 0;
-    border-bottom: none;
-}
-
-#hero h3 {
-    font-size: 2rem;
-    margin: 0 0 0rem 0;
-    border-bottom: none;
-}
-
-/* スキル */
-#skills .skill-category {
-    margin-bottom: 1.5rem;
-}
-
-#skills h3 {
-    color: #007acc;
-    border-left: 4px solid #007acc;
-    padding-left: 10px;
-    margin-bottom: 1rem;
-}
-
-.skill-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.skill-list li {
-    background-color: #e0e0e0;
-    padding: 8px 15px;
-    border-radius: 5px;
-    font-size: 0.9rem;
-}
-
-.note {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #555;
-    margin-top: 2rem;
-}
-
-/* 実績 */
-.work-card {
-    background-color: #f5f5f5;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-radius: 8px;
-    border-left: 5px solid #007acc;
-}
-
-.work-card h3 {
-    margin-top: 0;
-    color: #000;
-}
-
-.work-card p {
-    margin-bottom: 1.8rem;
-}
-
-
-/* お問い合わせ */
-#contact {
-    text-align: center;
-}
-
-.contact-mail {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 10px 20px;
-    background-color: #007acc;
-    color: #ffffff;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.contact-mail:hover {
-    background-color: #000000;
-}
-
-/* フッター */
-footer {
-    text-align: center;
-    padding: 0.1rem;
-    margin-top: 2rem;
-    background-color: #A9A9A9;
-    color: #FFF;
-    font-size: 0.9rem;
-}
-
-/* レスポンシブ対応 */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    header h1 {
-        margin-bottom: 1rem;
-    }
-
-    header nav ul li {
-        margin: 0 10px;
-    }
-
-    .container {
-        margin: 1rem;
-        padding: 1.5rem;
-    }
-
-    h2 {
-        font-size: 1.8rem;
-    }
-
-    #hero h2 {
-        font-size: 2rem;
-    }
-}
-
-/* Aboutセクション */
-.about-container {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-
-.about-image img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-
-.about-image img {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-/* 実績セクションのレイアウト調整 */
-.works-grid {
-    display: block;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-}
-
-.work-image img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
-}
-
-.work-info {
-    padding: 1rem;
-}
-
-.work-links {
-    margin-top: 1rem;
-}
-
-.work-links a {
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-/* SNSリンク */
-.social-links {
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-}
-
-.social-links a {
-    font-weight: bold;
-}
-
-/* レスポンシブ対応の追加調整 */
-@media (max-width: 768px) {
-    .about-container {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-/* 枠 */
-.all-card {
-    background-color: #f5f5f5;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-radius: 8px;
-    border-left: 5px solid #007acc;
-}
-
-.all-card h3 {
-    margin-top: 0;
-    color: #000;
-}
-
-.all-card p {
-    margin-bottom: 0.5rem;
-}
-    </style>
-</head>
-<body>
-
-
